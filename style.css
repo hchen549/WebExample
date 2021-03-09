@@ -3,13 +3,21 @@
   padding: 5px;
 }
 
+.accordion-item {
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
 button.accordion {
   width: 100%;
-  background-color: #cc0000;
-  border: none;
+  background-color: #9b0000;
+
   outline: none;
   text-align: left;
+  border: none;
   padding: 15px 10px;
+  /* padding: 0.5rem 5rem 0.5rem 1rem; */
   font-size: 16px;
   color: #ffffff;
   cursor: pointer;
